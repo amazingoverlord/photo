@@ -13,6 +13,24 @@ async function init() {
   setupVideoModal();
 }
 
+// Simple deterministic PRNG so spacer placement is consistent across loads
+function hashString(str) {
+  let hash = 0;
+  for (let i = 0; i < str.length; i++) {
+    hash = (hash << 5) - hash + str.charCodeAt(i);
+    hash |= 0;
+  }
+  return hash;
+}
+
+function createSeededRandom(seed) {
+  let state = seed;
+  return function () {
+    state = (state * 1664525 + 1013904223) % 4294967296;
+    return state / 4294967296;
+  };
+}
+
 function renderSections() {
   const main = document.getElementById('sections');
   sections.forEach(section => {
@@ -28,7 +46,8 @@ function renderSections() {
     const grid = document.createElement('div');
     grid.className = 'grid';
 
-    let nextSpacerAt = randomSpacerInterval();
+    const seededRandom = createSeededRandom(hashString(section.id));
+    let nextSpacerAt = randomSpacerInterval(seededRandom);
 
     section.items.forEach((item, index) => {
       const el = document.createElement('div');
@@ -56,10 +75,9 @@ function renderSections() {
 
       grid.appendChild(el);
 
-      // insert a random empty spacer at randomized intervals
       if (index + 1 === nextSpacerAt) {
-        grid.appendChild(createSpacer());
-        nextSpacerAt = index + 1 + randomSpacerInterval();
+        grid.appendChild(createSpacer(seededRandom));
+        nextSpacerAt = index + 1 + randomSpacerInterval(seededRandom);
       }
     });
 
@@ -68,18 +86,18 @@ function renderSections() {
   });
 }
 
-function randomSpacerInterval() {
-  // spacer every 5-7 items
-  return 5 + Math.floor(Math.random() * 3);
+function randomSpacerInterval(rand) {
+  // spacer every 3-7 items
+  return 3 + Math.floor(rand() * 5);
 }
 
-function createSpacer() {
+function createSpacer(rand) {
   const tiers = ['tier-small', 'tier-medium', 'tier-large'];
-  const randomTier = tiers[Math.floor(Math.random() * tiers.length)];
+  const randomTier = tiers[Math.floor(rand() * tiers.length)];
   const spacer = document.createElement('div');
   spacer.className = `media-item ${randomTier} spacer`;
   spacer.style.visibility = 'hidden';
-  spacer.style.height = `${150 + Math.random() * 200}px`;
+  spacer.style.height = `${150 + rand() * 200}px`;
   spacer.style.opacity = '0';
   return spacer;
 }
