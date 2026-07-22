@@ -23,7 +23,7 @@
         { "type": "photo", "src": "images/portraits/bas_20160211-6821.jpg", "note": "", "size": "small" },
         { "type": "photo", "src": "images/portraits/10_johanna_black1_35mm_0089.jpg", "note": "", "size": "large" },
         { "type": "photo", "src": "images/portraits/08_courtney_35mm_20150607_0106.jpg", "note": "", "size": "small" },
-        { "type": "photo", "src": "images/portraits/05_cristi_35mm_0025", "note": "", "size": "large" }
+        { "type": "photo", "src": "images/portraits/05_cristi_35mm_0025.jpg", "note": "", "size": "large" }
       ]
     },
     {
@@ -47,20 +47,7 @@
         { "type": "photo", "src": "images/tearsheets/IMAGE_APRIL_1244.jpg", "note": "Image", "size": "small" },
         { "type": "photo", "src": "images/tearsheets/1_Moevir_Magazine_March_Issue_202453.jpg", "note": "Moevir", "size": "medium" },
         { "type": "photo", "src": "images/tearsheets/1_Moevir_Magazine_March_Issue_202449.jpg", "note": "Moevir", "size": "small" },
-        { "type": "photo", "src": "images/tearsheets/pmag_20170316.jpg", "note": "P Magazine", "size": "large" }
-      ]
-    },
-    {
-      "id": "motion",
-      "title": "Films",
-      "items": [
-        {
-          "type": "video",
-          "src": "videos/some-film.mp4",
-          "poster": "images/motion/some-film-poster.jpg",
-          "note": "Song Title, Artist Name. Directed by B.",
-          "size": "large"
-        }
+        { "type": "photo", "src": "images/tearsheets/pmag_20170316.png", "note": "P Magazine", "size": "large" }
       ]
     }
   ]
