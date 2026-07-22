@@ -92,7 +92,7 @@ function renderSections() {
 
 function randomSpacerInterval(rand) {
   // spacer every 3-7 items
-  return 2 + Math.floor(rand() * 4);
+  return 2 + Math.floor(rand() * 3);
 }
 
 function createSpacer(rand) {
