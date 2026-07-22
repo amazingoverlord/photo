@@ -13,7 +13,7 @@ async function init() {
   setupVideoModal();
 }
 
-// Simple deterministic PRNG so spacer placement is consistent across loads
+// Simple deterministic PRNG so spacer placement and alignment are consistent across loads
 function hashString(str) {
   let hash = 0;
   for (let i = 0; i < str.length; i++) {
@@ -54,6 +54,10 @@ function renderSections() {
       el.className = `media-item tier-${item.size}`;
       el.dataset.section = section.id;
       el.dataset.index = index;
+
+      if (item.size === 'small') {
+        el.classList.add(seededRandom() < 0.5 ? 'align-top' : 'align-bottom');
+      }
 
       if (item.type === 'photo') {
         const img = document.createElement('img');
@@ -112,7 +116,6 @@ function setupFadeIn() {
     });
   }, { threshold: 0.1 });
 
-  // exclude spacers, they should never fade in since they're never visible
   document.querySelectorAll('.media-item:not(.spacer)').forEach(el => observer.observe(el));
 }
 
