@@ -55,7 +55,7 @@ function renderSections() {
       el.dataset.section = section.id;
       el.dataset.index = index;
 
-      if (item.size === 'small') {
+      if (item.size === 'small' || item.size === 'medium') {
         el.classList.add(seededRandom() < 0.5 ? 'align-top' : 'align-bottom');
       }
 
