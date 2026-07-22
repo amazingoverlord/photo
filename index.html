@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Portfolio</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:wght@300;400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="site-nav">
+  <a href="#portraits" class="nav-link" data-section="portraits">Portraits</a>
+  <a href="#editorial" class="nav-link" data-section="editorial">Editorial</a>
+  <a href="#tearsheets" class="nav-link" data-section="tearsheets">Tearsheets</a>
+  <a href="#motion" class="nav-link" data-section="motion">Motion</a>
+</header>
+
+<main id="sections"></main>
+
+<!-- Photo lightbox -->
+<div class="lightbox" id="lightbox" hidden>
+  <button class="lightbox-close" id="lightbox-close" aria-label="Close">&times;</button>
+  <button class="lightbox-arrow lightbox-prev" id="lightbox-prev" aria-label="Previous">&#8249;</button>
+  <img class="lightbox-image" id="lightbox-image" alt="">
+  <button class="lightbox-arrow lightbox-next" id="lightbox-next" aria-label="Next">&#8250;</button>
+</div>
+
+<!-- Video modal -->
+<div class="video-modal" id="video-modal" hidden>
+  <button class="lightbox-close" id="video-close" aria-label="Close">&times;</button>
+  <video class="video-modal-player" id="video-player" controls></video>
+  <p class="video-note" id="video-note"></p>
+</div>
+
+<script src="app.js"></script>
+</body>
+</html>
