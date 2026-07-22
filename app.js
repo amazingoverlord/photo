@@ -28,6 +28,8 @@ function renderSections() {
     const grid = document.createElement('div');
     grid.className = 'grid';
 
+    let nextSpacerAt = randomSpacerInterval();
+
     section.items.forEach((item, index) => {
       const el = document.createElement('div');
       el.className = `media-item tier-${item.size}`;
@@ -53,11 +55,33 @@ function renderSections() {
       }
 
       grid.appendChild(el);
+
+      // insert a random empty spacer at randomized intervals
+      if (index + 1 === nextSpacerAt) {
+        grid.appendChild(createSpacer());
+        nextSpacerAt = index + 1 + randomSpacerInterval();
+      }
     });
 
     sectionEl.appendChild(grid);
     main.appendChild(sectionEl);
   });
+}
+
+function randomSpacerInterval() {
+  // spacer every 5-7 items
+  return 5 + Math.floor(Math.random() * 3);
+}
+
+function createSpacer() {
+  const tiers = ['tier-small', 'tier-medium', 'tier-large'];
+  const randomTier = tiers[Math.floor(Math.random() * tiers.length)];
+  const spacer = document.createElement('div');
+  spacer.className = `media-item ${randomTier} spacer`;
+  spacer.style.visibility = 'hidden';
+  spacer.style.height = `${150 + Math.random() * 200}px`;
+  spacer.style.opacity = '0';
+  return spacer;
 }
 
 function setupFadeIn() {
@@ -70,7 +94,8 @@ function setupFadeIn() {
     });
   }, { threshold: 0.1 });
 
-  document.querySelectorAll('.media-item').forEach(el => observer.observe(el));
+  // exclude spacers, they should never fade in since they're never visible
+  document.querySelectorAll('.media-item:not(.spacer)').forEach(el => observer.observe(el));
 }
 
 function setupScrollSpy() {
