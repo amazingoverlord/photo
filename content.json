@@ -7,9 +7,9 @@
         { "type": "photo", "src": "images/portraits/1_20230513_Georgie_5243.jpg", "note": "", "size": "large" },
         { "type": "photo", "src": "images/portraits/2_20230415_Nishaun_1286.jpg", "note": "", "size": "small" },
         { "type": "photo", "src": "images/portraits/6_20230401_Caterina_0534.jpg", "note": "", "size": "medium" },
-        { "type": "photo", "src": "images/portraits/11_20191227_katya_color_6911.jpg", "note": "", "size": "small" },
+        { "type": "photo", "src": "images/portraits/11_20191227_katya_color_6911.jpg", "note": "", "size": "medium" },
         { "type": "photo", "src": "images/portraits/14_20201003_anna35mm_0121.jpg", "note": "", "size": "large" },
-        { "type": "photo", "src": "images/portraits/15_20200216_alina35mm_0112.jpg", "note": "", "size": "medium" },
+        { "type": "photo", "src": "images/portraits/15_20200216_alina35mm_0112.jpg", "note": "", "size": "large" },
         { "type": "photo", "src": "images/portraits/02_20190303_elaina_35mm_0016.jpg", "note": "", "size": "large" },
         { "type": "photo", "src": "images/portraits/DSCF4514.jpg", "note": "", "size": "small" },
         { "type": "photo", "src": "images/portraits/21_201800121_kelsey_35mm_0054.jpg", "note": "", "size": "small" },
@@ -18,11 +18,11 @@
         { "type": "photo", "src": "images/portraits/27_20171001_dayna_35mm_0322.jpg", "note": "", "size": "small" },
         { "type": "photo", "src": "images/portraits/08_201700408_kelsey_35mm_0074.jpg", "note": "", "size": "large" },
         { "type": "photo", "src": "images/portraits/04_201700408_kelsey_35mm_0015.jpg", "note": "", "size": "medium" },
-        { "type": "photo", "src": "images/portraits/PICT0032.jpg", "note": "", "size": "medium" },
+        { "type": "photo", "src": "images/portraits/PICT0032.jpg", "note": "", "size": "large" },
         { "type": "photo", "src": "images/portraits/18_johanna_20161103_0082.jpg", "note": "", "size": "large" },
         { "type": "photo", "src": "images/portraits/bas_20160211-6821.jpg", "note": "", "size": "small" },
         { "type": "photo", "src": "images/portraits/10_johanna_black1_35mm_0089.jpg", "note": "", "size": "large" },
-        { "type": "photo", "src": "images/portraits/08_courtney_35mm_20150607_0106.jpg", "note": "", "size": "small" },
+        { "type": "photo", "src": "images/portraits/08_courtney_35mm_20150607_0106.jpg", "note": "", "size": "medium" },
         { "type": "photo", "src": "images/portraits/05_cristi_35mm_0025.jpg", "note": "", "size": "large" }
       ]
     },
@@ -31,8 +31,8 @@
       "title": "Stories",
       "items": [
         { "type": "photo", "src": "images/stories/10_larry2016_set2_1920_4189.jpg", "note": "", "size": "medium" },
-        { "type": "photo", "src": "images/stories/13_larry2016_set2_1920_4268.jpg", "note": "", "size": "medium" },
-        { "type": "photo", "src": "images/stories/05_larry2016_set2_1920_3817.jpg", "note": "", "size": "small" },
+        { "type": "photo", "src": "images/stories/13_larry2016_set2_1920_4268.jpg", "note": "", "size": "large" },
+        { "type": "photo", "src": "images/stories/05_larry2016_set2_1920_3817.jpg", "note": "", "size": "medium" },
         { "type": "photo", "src": "images/stories/Nouveau_Fil_8.jpg", "note": "", "size": "medium" },
         { "type": "photo", "src": "images/stories/Nouveau_Fil_6.jpg", "note": "", "size": "large" }
       ]
