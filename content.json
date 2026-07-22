@@ -33,8 +33,8 @@
         { "type": "photo", "src": "images/stories/10_larry2016_set2_1920_4189.jpg", "note": "", "size": "medium" },
         { "type": "photo", "src": "images/stories/13_larry2016_set2_1920_4268.jpg", "note": "", "size": "medium" },
         { "type": "photo", "src": "images/stories/05_larry2016_set2_1920_3817.jpg", "note": "", "size": "small" },
-        { "type": "photo", "src": "images/stories/Nouveau Fil 8.jpg", "note": "", "size": "medium" },
-        { "type": "photo", "src": "images/stories/Nouveau Fil 6.jpg", "note": "", "size": "large" }
+        { "type": "photo", "src": "images/stories/Nouveau_Fil_8.jpg", "note": "", "size": "medium" },
+        { "type": "photo", "src": "images/stories/Nouveau_Fil_6.jpg", "note": "", "size": "large" }
       ]
     },
     {
@@ -45,8 +45,8 @@
         { "type": "photo", "src": "images/tearsheets/Vanguard25vol3_pp20-21.jpg", "note": "Vanguard", "size": "medium" },
         { "type": "photo", "src": "images/tearsheets/INFRAME_BLACK_AND_WHITE_Issue_77_Black_and_White_Edition_December_2023p74.jpg", "note": "InFrame", "size": "medium" },
         { "type": "photo", "src": "images/tearsheets/IMAGE_APRIL_1244.jpg", "note": "Image", "size": "small" },
-        { "type": "photo", "src": "images/tearsheets/1 Moevir Magazine March Issue 202453.jpg", "note": "Moevir", "size": "medium" },
-        { "type": "photo", "src": "images/tearsheets/1 Moevir Magazine March Issue 202449.jpg", "note": "Moevir", "size": "small" },
+        { "type": "photo", "src": "images/tearsheets/1_Moevir_Magazine_March_Issue_202453.jpg", "note": "Moevir", "size": "medium" },
+        { "type": "photo", "src": "images/tearsheets/1_Moevir_Magazine_March_Issue_202449.jpg", "note": "Moevir", "size": "small" },
         { "type": "photo", "src": "images/tearsheets/pmag_20170316.jpg", "note": "P Magazine", "size": "large" }
       ]
     },
