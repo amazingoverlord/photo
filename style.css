@@ -57,7 +57,7 @@ body {
   align-items: start;
 }
 .media-item {
-  grid-column: span 4;
+  grid-column: span 2;
   opacity: 0;
   transition: opacity 0.5s ease;
   cursor: pointer;
@@ -65,8 +65,8 @@ body {
 .media-item.visible {
   opacity: 1;
 }
-.media-item.tier-medium { grid-column: span 8; }
-.media-item.tier-large { grid-column: span 16; }
+.media-item.tier-medium { grid-column: span 4; }
+.media-item.tier-large { grid-column: span 8; }
 
 /* Small-tier images randomly align to top or bottom of their row */
 .media-item.align-top { align-self: start; }
