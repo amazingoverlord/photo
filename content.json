@@ -62,9 +62,44 @@
       "items": [
         {
           "type": "video",
-          "src": "https://vimeo.com/17227849",
+          "src": "17227849",
           "poster": "images/films/lmt(0.00.26.10).jpg",
           "note": "Love Me Tender (Viva Elvis), Elvis Presley. Directed by Bienvenido Cruz.",
+          "size": "large"
+        },
+        {
+          "type": "video",
+          "src": "13002895",
+          "poster": "images/films/larryfw10_01.jpg",
+          "note": "Larry FW 2010/2011 Promo 2. Directed by Bienvenido Cruz.",
+          "size": "medium"
+        },
+        {
+          "type": "video",
+          "src": "13010673",
+          "poster": "images/films/larryfw10_02.jpg",
+          "note": "Larry FW 2010/2011 Promo 2. Directed by Bienvenido Cruz.",
+          "size": "large"
+        },
+        {
+          "type": "video",
+          "src": "3105875",
+          "poster": "images/films/dancers.jpg",
+          "note": "Dancers, Circlesquare. Directed by Bienvenido Cruz.",
+          "size": "large"
+        },
+        {
+          "type": "video",
+          "src": "7431128",
+          "poster": "images/films/arwin07HD.jpg",
+          "note": "Aritzia FW 2007. Directed by Bienvenido Cruz.",
+          "size": "medium"
+        },
+        {
+          "type": "video",
+          "src": "1226152",
+          "poster": "images/films/fightsounds2006.jpg",
+          "note": "Fight Sound Pt.1, Circlesquare. Directed by Bienvenido Cruz.",
           "size": "large"
         }
       ]
