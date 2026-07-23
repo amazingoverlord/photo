@@ -28,13 +28,11 @@ body {
   background: var(--bg);
   border-bottom: 1px solid var(--border);
 }
-
 .brand {
   font-weight: 500;
   font-size: 1rem;
   letter-spacing: 0.01em;
 }
-
 .nav-links {
   display: flex;
   gap: 2rem;
@@ -113,6 +111,23 @@ body {
   border-color: transparent transparent transparent #F5F1EA;
   margin-left: 2px;
 }
+
+/* Contact footer */
+.contact-footer {
+  padding: 6rem 2rem 4rem;
+  text-align: center;
+  scroll-margin-top: 4.5rem;
+}
+.contact-email {
+  color: var(--text);
+  text-decoration: none;
+  font-size: 1.1rem;
+  border-bottom: 1px solid var(--border);
+}
+.contact-email:hover {
+  color: var(--text-secondary);
+}
+
 /* Mobile: single column, full scroll */
 @media (max-width: 700px) {
   .grid {
