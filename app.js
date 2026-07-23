@@ -91,8 +91,8 @@ function renderSections() {
 }
 
 function randomSpacerInterval(rand) {
-  // spacer every 3-7 items
-  return 2 + Math.floor(rand() * 3);
+  // spacer every 1-3 items
+  return 1 + Math.floor(rand() * 3);
 }
 
 function createSpacer(rand) {
@@ -201,17 +201,15 @@ function setupLightbox() {
 
 /* Video modal */
 function openVideoModal(item) {
-  const player = document.getElementById('video-player');
-  player.src = item.src;
-  player.autoplay = true;
+  const iframe = document.getElementById('video-player');
+  iframe.src = `https://player.vimeo.com/video/${item.src}?autoplay=1`;
   document.getElementById('video-note').textContent = item.note || '';
   document.getElementById('video-modal').hidden = false;
 }
 
 function closeVideoModal() {
-  const player = document.getElementById('video-player');
-  player.pause();
-  player.src = '';
+  const iframe = document.getElementById('video-player');
+  iframe.src = '';
   document.getElementById('video-modal').hidden = true;
 }
 

@@ -4,37 +4,44 @@
       "id": "portraits",
       "title": "Portraits",
       "items": [
-        { "type": "photo", "src": "images/portraits/1_20230513_Georgie_5243.jpg", "note": "", "size": "large" },
-        { "type": "photo", "src": "images/portraits/2_20230415_Nishaun_1286.jpg", "note": "", "size": "medium" },
-        { "type": "photo", "src": "images/portraits/6_20230401_Caterina_0534.jpg", "note": "", "size": "large" },
-        { "type": "photo", "src": "images/portraits/11_20191227_katya_color_6911.jpg", "note": "", "size": "medium" },
-        { "type": "photo", "src": "images/portraits/14_20201003_anna35mm_0121.jpg", "note": "", "size": "large" },
-        { "type": "photo", "src": "images/portraits/15_20200216_alina35mm_0112.jpg", "note": "", "size": "large" },
-        { "type": "photo", "src": "images/portraits/02_20190303_elaina_35mm_0016.jpg", "note": "", "size": "medium" },
-        { "type": "photo", "src": "images/portraits/DSCF4514.jpg", "note": "", "size": "large" },
+        { "type": "photo", "src": "images/portraits/1_20230513_Georgie_5243.jpg", "note": "", "size": "medium" },
+        { "type": "photo", "src": "images/portraits/2_20230415_Nishaun_1286.jpg", "note": "", "size": "small" },
+        { "type": "photo", "src": "images/portraits/6_20230401_Caterina_0534.jpg", "note": "", "size": "medium" },
+        { "type": "photo", "src": "images/portraits/11_20191227_katya_color_6911.jpg", "note": "", "size": "small" },
+        { "type": "photo", "src": "images/portraits/14_20201003_anna35mm_0121.jpg", "note": "", "size": "medium" },
+        { "type": "photo", "src": "images/portraits/15_20200216_alina35mm_0112.jpg", "note": "", "size": "medium" },
+        { "type": "photo", "src": "images/portraits/02_20190303_elaina_35mm_0016.jpg", "note": "", "size": "small" },
+        { "type": "photo", "src": "images/portraits/DSCF4514.jpg", "note": "", "size": "medium" },
         { "type": "photo", "src": "images/portraits/21_201800121_kelsey_35mm_0054.jpg", "note": "", "size": "medium" },
-        { "type": "photo", "src": "images/portraits/06_20171121_colleen_35mm_color_0128.jpg", "note": "", "size": "large" },
         { "type": "photo", "src": "images/portraits/05_20171121_colleen_35mm_0017.jpg", "note": "", "size": "medium" },
-        { "type": "photo", "src": "images/portraits/27_20171001_dayna_35mm_0322.jpg", "note": "", "size": "medium" },
-        { "type": "photo", "src": "images/portraits/08_201700408_kelsey_35mm_0074.jpg", "note": "", "size": "large" },
-        { "type": "photo", "src": "images/portraits/04_201700408_kelsey_35mm_0015.jpg", "note": "", "size": "large" },
-        { "type": "photo", "src": "images/portraits/PICT0032.jpg", "note": "", "size": "large" },
-        { "type": "photo", "src": "images/portraits/18_johanna_20161103_0082.jpg", "note": "", "size": "large" },
-        { "type": "photo", "src": "images/portraits/bas_20160211-6821.jpg", "note": "", "size": "medium" },
-        { "type": "photo", "src": "images/portraits/10_johanna_black1_35mm_0089.jpg", "note": "", "size": "large" },
+        { "type": "photo", "src": "images/portraits/06_20171121_colleen_35mm_color_0128.jpg", "note": "", "size": "medium" },
+        { "type": "photo", "src": "images/portraits/27_20171001_dayna_35mm_0322.jpg", "note": "", "size": "small" },
+        { "type": "photo", "src": "images/portraits/18_johanna_20161103_0082.jpg", "note": "", "size": "medium" },
+        { "type": "photo", "src": "images/portraits/08_201700408_kelsey_35mm_0074.jpg", "note": "", "size": "medium" },
+        { "type": "photo", "src": "images/portraits/04_201700408_kelsey_35mm_0015.jpg", "note": "", "size": "medium" },
+        { "type": "photo", "src": "images/portraits/PICT0032.jpg", "note": "", "size": "small" },
+        { "type": "photo", "src": "images/portraits/bas_20160211-6821.jpg", "note": "", "size": "small" },
         { "type": "photo", "src": "images/portraits/08_courtney_35mm_20150607_0106.jpg", "note": "", "size": "medium" },
-        { "type": "photo", "src": "images/portraits/05_cristi_35mm_0025.jpg", "note": "", "size": "large" }
+        { "type": "photo", "src": "images/portraits/05_cristi_35mm_0025.jpg", "note": "", "size": "medium" },
+        { "type": "photo", "src": "images/portraits/10_johanna_black1_35mm_0089.jpg", "note": "", "size": "medium" }
       ]
     },
     {
-      "id": "editorial",
+      "id": "stories",
       "title": "Stories",
       "items": [
-        { "type": "photo", "src": "images/stories/10_larry2016_set2_1920_4189.jpg", "note": "", "size": "medium" },
-        { "type": "photo", "src": "images/stories/13_larry2016_set2_1920_4268.jpg", "note": "", "size": "large" },
+        { "type": "photo", "src": "images/stories/greenhouse_8428.jpg", "note": "", "size": "medium" },
+        { "type": "photo", "src": "images/stories/greenhouse_8904.jpg", "note": "", "size": "medium" },
+        { "type": "photo", "src": "images/stories/greenhouse_8587.jpg", "note": "", "size": "large" },
+        { "type": "photo", "src": "images/stories/18_larry2017_0173.jpg", "note": "", "size": "small" },
+        { "type": "photo", "src": "images/stories/26_larry2017_0230.jpg", "note": "", "size": "medium" },
+        { "type": "photo", "src": "images/stories/29_larry2017_0245.jpg", "note": "", "size": "small" },
+        { "type": "photo", "src": "images/stories/30_larry2017_0248.jpg", "note": "", "size": "medium" },
+        { "type": "photo", "src": "images/stories/10_larry2016_set2_1920_4189.jpg", "note": "", "size": "large" },
+        { "type": "photo", "src": "images/stories/13_larry2016_set2_1920_4268.jpg", "note": "", "size": "medium" },
         { "type": "photo", "src": "images/stories/05_larry2016_set2_1920_3817.jpg", "note": "", "size": "medium" },
-        { "type": "photo", "src": "images/stories/Nouveau_Fil_8.jpg", "note": "", "size": "medium" },
-        { "type": "photo", "src": "images/stories/Nouveau_Fil_6.jpg", "note": "", "size": "large" }
+        { "type": "photo", "src": "images/stories/Nouveau_Fil_8.jpg", "note": "", "size": "small" },
+        { "type": "photo", "src": "images/stories/Nouveau_Fil_6.jpg", "note": "", "size": "small" }
       ]
     },
     {
@@ -43,11 +50,23 @@
       "items": [
         { "type": "photo", "src": "images/tearsheets/Vanguard25vol3_pp14-15.jpg", "note": "Vanguard", "size": "large" },
         { "type": "photo", "src": "images/tearsheets/Vanguard25vol3_pp20-21.jpg", "note": "Vanguard", "size": "large" },
-        { "type": "photo", "src": "images/tearsheets/INFRAME_BLACK_AND_WHITE_Issue_77_Black_and_White_Edition_December_2023p74.jpg", "note": "InFrame", "size": "medium" },
-        { "type": "photo", "src": "images/tearsheets/IMAGE_APRIL_1244.jpg", "note": "Image", "size": "medium" },
-        { "type": "photo", "src": "images/tearsheets/1_Moevir_Magazine_March_Issue_202453.jpg", "note": "Moevir", "size": "medium" },
-        { "type": "photo", "src": "images/tearsheets/1_Moevir_Magazine_March_Issue_202449.jpg", "note": "Moevir", "size": "large" },
+        { "type": "photo", "src": "images/tearsheets/INFRAME_BLACK_AND_WHITE_Issue_77_Black_and_White_Edition_December_2023p74.jpg", "note": "InFrame", "size": "small" },
+        { "type": "photo", "src": "images/tearsheets/IMAGE_APRIL_1244.jpg", "note": "Image", "size": "small" },
+        { "type": "photo", "src": "images/tearsheets/1_Moevir_Magazine_March_Issue_202449.jpg", "note": "Moevir", "size": "medium" },
         { "type": "photo", "src": "images/tearsheets/pmag_20170316.png", "note": "P Magazine", "size": "large" }
+      ]
+    },
+    {
+      "id": "films",
+      "title": "Films",
+      "items": [
+        {
+          "type": "video",
+          "src": "https://vimeo.com/17227849",
+          "poster": "images/films/lmt(0.00.26.10).jpg",
+          "note": "Love Me Tender (Viva Elvis), Elvis Presley. Directed by Bienvenido Cruz.",
+          "size": "large"
+        }
       ]
     }
   ]
